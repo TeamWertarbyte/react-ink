@@ -15,23 +15,22 @@
     "react",
     "material design"
   ],
-  "babel": {
-    "stage": 2,
-    "loose": "all",
-    "optional": []
-  },
   "author": "Nate Hunzaker",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "~5",
-    "babel-loader": "~5",
-    "react": "~0.14.0",
-    "react-addons-test-utils": "0.14.0",
-    "react-dom": "~0.14.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-object-rest-spread": "^6.19.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "react": "^15.4",
+    "react-addons-test-utils": "^15.4",
+    "react-dom": "^15.4",
     "webpack": "~1",
     "webpack-dev-server": "~1"
   },
   "peerDependencies": {
-    "react": ">= 0.12"
+    "react": ">= 0.15"
   }
 }
